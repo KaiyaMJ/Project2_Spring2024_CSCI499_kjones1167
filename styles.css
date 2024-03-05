@@ -1,0 +1,81 @@
+/* Set background color of the page */
+body {
+    background-color: #ffcc00; /* Vibrant yellow */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #ff5722; /* Vibrant orange */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the search container */
+.search-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Style the search form */
+form {
+    display: inline-block;
+}
+
+/* Style the search input */
+input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+}
+
+/* Style the search button */
+#searchBtn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #4caf50; /* Vibrant green */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#searchBtn:hover {
+    background-color: #388e3c; /* Darker shade of green on hover */
+}
+
+/* Style the other buttons */
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #2196f3; /* Vibrant blue */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1976d2; /* Darker shade of blue on hover */
+}
+
+/* Style the search results */
+#searchResults {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffeb3b; /* Vibrant yellow */
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+/* Define fade animation */
+.fade {
+    opacity: 1; /* Start with opacity 1 (fully visible) */
+    transition: opacity 0.5s ease; /* Add transition for smooth fading */
+}
+
+.fade.hide {
+    opacity: 0; /* Hide element with opacity 0 */
+}

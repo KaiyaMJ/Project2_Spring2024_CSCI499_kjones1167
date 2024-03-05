@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SearchSpot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="fade"> <!-- Add the "fade" class to the header -->
+        <h1>Welcome to SearchSpot</h1>
+    </header>
+    <div class="search-container">
+        <form>
+            <label for="query">Search:</label>
+            <input type="text" id="query" name="query" class="fade"> <!-- Add the "fade" class to the text box -->
+            <button type="submit" id="searchBtn"  class="fade">Search</button> <!-- Add the "fade" class to the search button -->
+        </form>
+    </div>
+    <button id="changeColorBtn">Change Background Color</button>
+    <button id="toggleFadeBtn">Toggle Fade</button>
+    <button id="luckyBtn">I'm Feeling Lucky</button>
+    <div id="searchResults"></div>
+    <script src="script.js"></script>
+   
+</body>
+</html>
